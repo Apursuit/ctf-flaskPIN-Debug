@@ -1,8 +1,18 @@
-# web-flask-python_3.10
+# ctf-flaskPIN-Debug
+
+注意：
+
+用于测试flask pin计算的镜像，搭建一个可以允许本地用户以外用户访问`console`控制台的flask服务。测试发现默认的高版本flask已经不允许非本地用户访问console控制台了，所以这里使用了flask1.1.1以及他所需要的组件。
+
+另外这里使用了flask1.1.1，不支持flask命令启动服务，需要在app.py里指定
+
+## 声明
+
+[模板原创项目地址](https://github.com/CTF-Archives/ctf-docker-template)，使用`ctf-docker-template`项目的模板
 
 ## 环境说明
 
-提供 `Python 3.10 + Flask` 的基础环境，默认暴露端口位于8080
+提供 `Python 3.10 + Flask` 的基础环境
 
 ## 如何使用
 
